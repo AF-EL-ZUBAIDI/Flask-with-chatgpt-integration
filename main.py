@@ -30,7 +30,8 @@ def app_response():
     return answer
 
 
-# Add your environment Key
+# Insert your environment key 
+openai.api_key = "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"
 
 def get_response(question):
   response = openai.ChatCompletion.create(
