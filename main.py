@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request
-import os
 import openai
 
+"""
+Author : Abed Zubaidi
+"""
 app = Flask(__name__)
 history = []
 
@@ -67,4 +69,4 @@ def get_response(question):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="192.168.100.92")
+    app.run(debug=True, host="0.0.0.0", port=5000)
