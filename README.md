@@ -16,11 +16,7 @@ To get started with Flask, follow these steps:
 pip3 install flask
 ```
 
-2. Clone the project repository:
-```bash
-git clone https://github.com/AF-EL-ZUBAIDI/Flask-OpenAI.git
-cd flask_openai
-```
+2. Clone the project repository
 
 3. Set up your environment key in the file main.py
 
